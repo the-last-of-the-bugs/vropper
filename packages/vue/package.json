@@ -1,0 +1,47 @@
+{
+  "name": "@vropper/vue",
+  "version": "0.1.0",
+  "description": "Vue 3 components and composables for the Vropper image cropper",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "vite build && vue-tsc --emitDeclarationOnly -p tsconfig.build.json",
+    "test": "vitest run"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.41"
+  },
+  "dependencies": {
+    "@vropper/core": "workspace:*",
+    "@vropper/shapes": "workspace:*"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "image",
+    "cropper",
+    "crop",
+    "shape",
+    "vropper"
+  ],
+  "devDependencies": {
+    "vue": "^3.5.41",
+    "vue-tsc": "^3.3.9"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@vropper/core",
+  "version": "0.1.0",
+  "description": "Framework-agnostic, shape-aware image cropping engine",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@vropper/shapes": "workspace:*"
+  },
+  "keywords": ["image", "crop", "cropper", "canvas", "shape", "vropper"]
+}
