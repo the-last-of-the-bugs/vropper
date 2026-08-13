@@ -2,11 +2,13 @@
   "name": "vropper",
   "private": true,
   "version": "0.0.0",
+  "type": "module",
   "packageManager": "pnpm@11.11.0",
   "scripts": {
     "dev": "turbo dev",
     "build": "turbo build",
     "test": "turbo test",
+    "test:run": "vitest run",
     "lint": "turbo lint",
     "typecheck": "turbo typecheck",
     "format": "prettier --write ."
@@ -20,8 +22,5 @@
     "typescript": "^5.8.3",
     "vite": "^8.2.0",
     "vitest": "^4.1.10"
-  },
-  "dependencies": {
-    "vue": "^3.5.41"
   }
 }

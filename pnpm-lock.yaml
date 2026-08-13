@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      vue:
-        specifier: ^3.5.41
-        version: 3.5.41(typescript@5.9.3)
     devDependencies:
       '@types/node':
         specifier: ^26.2.0
