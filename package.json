@@ -1,0 +1,23 @@
+{
+  "name": "vropper",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@11.11.0",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "test": "turbo test",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "vite": "^8.2.0",
+    "turbo": "^2.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^4.1.10",
+    "eslint": "^9.32.0",
+    "prettier": "^3.7.3"
+  }
+}
