@@ -29,7 +29,9 @@
   },
   "dependencies": {
     "@vropper/core": "workspace:*",
-    "@vropper/shapes": "workspace:*"
+    "@vropper/shapes": "workspace:*",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.6.0"
   },
   "keywords": [
     "vue",
