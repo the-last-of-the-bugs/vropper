@@ -1,7 +1,7 @@
 {
   "name": "@vropper/docs",
-  "version": "0.1.0",
   "private": true,
-  "description": "Documentation site and live playground for vropper.",
+  "version": "0.1.0",
+  "description": "Documentation components for Vropper.",
   "type": "module"
 }
