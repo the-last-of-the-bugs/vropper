@@ -211,14 +211,7 @@ importers:
         specifier: ^4.1.10
         version: 4.1.10(@types/node@26.2.0)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0))
 
-  apps/docs:
-    dependencies:
-      '@vropper/core':
-        specifier: workspace:*
-        version: link:../../packages/core
-      '@vropper/shapes':
-        specifier: workspace:*
-        version: link:../../packages/shapes
+  apps/docs: {}
 
   packages/core:
     dependencies:
