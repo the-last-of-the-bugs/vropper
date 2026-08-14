@@ -6,8 +6,7 @@
   "packageManager": "pnpm@11.11.0",
   "scripts": {
     "dev": "vite",
-    "build": "pnpm --filter @vropper/core build && pnpm --filter @vropper/shapes build && pnpm --filter @vropper/vue build && vite build",
-    "preview": "vite preview",
+    "build": "pnpm --filter @vropper/shapes build && pnpm --filter @vropper/core build && pnpm --filter @vropper/vue build && vite build",
     "test": "vitest",
     "test:run": "vitest run",
     "lint": "eslint .",
