@@ -31,7 +31,7 @@ export function FeatureCards() {
         <div className="mt-6 flex items-center gap-3 text-muted-foreground">
           <Crop className="size-8" />
           <RefreshCw className="size-8" />
-          <code className="rounded-lg bg-background px-2 py-1 text-xs">@vropper/core</code>
+          <code className="rounded-lg bg-background px-2 py-1 text-xs">@tlob/vropper-core</code>
         </div>
       </article>
 
@@ -46,7 +46,7 @@ export function FeatureCards() {
         <div className="mt-6 grid grid-cols-2 gap-2 text-xs font-semibold">
           {["npm i", "pnpm add", "yarn add", "bun add"].map((cmd) => (
             <span key={cmd} className="rounded-xl bg-lime-foreground/10 px-3 py-2">
-              {cmd} @vropper/vue
+              {cmd} @tlob/vropper-vue
             </span>
           ))}
         </div>

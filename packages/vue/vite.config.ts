@@ -18,8 +18,8 @@ export default defineConfig({
     rollupOptions: {
       external: [
         "vue",
-        "@vropper/core",
-        "@vropper/shapes",
+        "@tlob/vropper-core",
+        "@tlob/vropper-shapes",
       ],
     },
   },

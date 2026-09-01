@@ -7,8 +7,8 @@ import {
   type ExportOptions,
   type ExportResult,
   type ImageSource,
-} from "@vropper/core";
-import type { ShapeContext, ShapeId } from "@vropper/shapes";
+} from "@tlob/vropper-core";
+import type { ShapeContext, ShapeId } from "@tlob/vropper-shapes";
 
 export interface UseVropperOptions extends CropperOptions {
   /** Canvas element ref the engine renders into. */

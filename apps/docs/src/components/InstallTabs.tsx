@@ -2,10 +2,10 @@ import { useState } from "react";
 import { Check, Copy } from "lucide-react";
 
 const managers = [
-  { id: "npm", command: "npm install @vropper/vue" },
-  { id: "pnpm", command: "pnpm add @vropper/vue" },
-  { id: "yarn", command: "yarn add @vropper/vue" },
-  { id: "bun", command: "bun add @vropper/vue" },
+  { id: "npm", command: "npm install @tlob/vropper-vue" },
+  { id: "pnpm", command: "pnpm add @tlob/vropper-vue" },
+  { id: "yarn", command: "yarn add @tlob/vropper-vue" },
+  { id: "bun", command: "bun add @tlob/vropper-vue" },
 ] as const;
 
 export function InstallTabs() {

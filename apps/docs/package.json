@@ -1,5 +1,5 @@
 {
-  "name": "@vropper/docs",
+  "name": "@tlob/vropper/docs",
   "private": true,
   "version": "0.1.0",
   "description": "Documentation components for Vropper.",

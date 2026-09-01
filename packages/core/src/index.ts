@@ -14,4 +14,4 @@ export {
   type ShapeDefinition,
   type ShapeContext,
   type ShapeId,
-} from "@vropper/shapes";
+} from "@tlob/vropper-shapes";

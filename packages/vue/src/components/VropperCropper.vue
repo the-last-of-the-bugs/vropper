@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, onBeforeUnmount, ref, shallowRef, watch } from "vue";
-import { Cropper, type ExportOptions, type ExportResult } from "@vropper/core";
+import { Cropper, type ExportOptions, type ExportResult } from "@tlob/vropper-core";
 import type { VropperProps } from "../types";
 
 const props = withDefaults(defineProps<VropperProps>(), {

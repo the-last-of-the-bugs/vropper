@@ -1,4 +1,4 @@
-import type { ShapeContext, ShapeId } from "@vropper/shapes";
+import type { ShapeContext, ShapeId } from "@tlob/vropper-shapes";
 
 export type ImageSource = string | File | Blob | HTMLImageElement | ImageBitmap;
 
