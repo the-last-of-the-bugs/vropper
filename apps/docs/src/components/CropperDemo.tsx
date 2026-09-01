@@ -5,7 +5,7 @@ import {
   type AspectRatio,
   type ExportFormat,
   type ShapeId,
-} from "@vropper/core";
+} from "@tlob/vropper-core";
 import {
   Download,
   FlipHorizontal2,

@@ -18,8 +18,8 @@ export default defineConfig({
   resolve: {
     alias: {
       "@docs": path.resolve(import.meta.dirname, "./apps/docs/src"),
-      "@vropper/core": path.resolve(import.meta.dirname, "./packages/core/src"),
-      "@vropper/shapes": path.resolve(import.meta.dirname, "./packages/shapes/src"),
+      "@tlob/vropper-core": path.resolve(import.meta.dirname, "./packages/core/src"),
+      "@tlob/vropper-shapes": path.resolve(import.meta.dirname, "./packages/shapes/src"),
     },
   },
 });

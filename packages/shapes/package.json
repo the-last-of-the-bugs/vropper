@@ -1,5 +1,5 @@
 {
-  "name": "@vropper/shapes",
+  "name": "@tlob/vropper-shapes",
   "version": "0.1.0",
   "description": "Reusable shape definitions for Vropper crop masks",
   "license": "MIT",

@@ -1,4 +1,4 @@
-import { defaultShapeRegistry, type ShapeContext, type ShapeDefinition, type ShapeId } from "@vropper/shapes";
+import { defaultShapeRegistry, type ShapeContext, type ShapeDefinition, type ShapeId } from "@tlob/vropper-shapes";
 import { computeCropBox } from "./crop/cropBox";
 import { renderExport, renderPreview } from "./canvas/renderer";
 import { exportCanvas } from "./export/exporter";

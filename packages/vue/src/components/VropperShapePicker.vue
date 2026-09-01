@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useShapes } from "../composables/useShapes";
-import type { ShapeId } from "@vropper/shapes";
+import type { ShapeId } from "@tlob/vropper-shapes";
 
 defineProps<{ modelValue: ShapeId }>();
 const emit = defineEmits<{ "update:modelValue": [shape: ShapeId] }>();

@@ -1,5 +1,5 @@
 {
-  "name": "@vropper/vue",
+  "name": "@tlob/vropper-vue",
   "version": "0.1.0",
   "description": "Vue 3 components and composables for the Vropper image cropper",
   "license": "MIT",
@@ -28,8 +28,8 @@
     "vue": "^3.5.41"
   },
   "dependencies": {
-    "@vropper/core": "workspace:*",
-    "@vropper/shapes": "workspace:*",
+    "@tlob/vropper-core": "workspace:*",
+    "@tlob/vropper-shapes": "workspace:*",
     "clsx": "^2.1.1",
     "tailwind-merge": "^3.6.0"
   },
@@ -40,10 +40,19 @@
     "cropper",
     "crop",
     "shape",
-    "vropper"
+    "vropper",
+    "image-cropper",
+    "image-crop",
+    "image-cropper-vue",
+    "image-crop-vue"
   ],
   "devDependencies": {
     "vue": "^3.5.41",
     "vue-tsc": "^3.3.9"
+  },
+  "homepage": "https://vropper.vercel.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-last-of-the-bugs/vropper.git"
   }
 }

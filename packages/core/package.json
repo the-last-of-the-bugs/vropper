@@ -1,5 +1,5 @@
 {
-  "name": "@vropper/core",
+  "name": "@tlob/vropper-core",
   "version": "0.1.0",
   "description": "Framework-agnostic, shape-aware image cropping engine",
   "license": "MIT",
@@ -20,7 +20,12 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@vropper/shapes": "workspace:*"
+    "@tlob/vropper-shapes": "workspace:*"
   },
-  "keywords": ["image", "crop", "cropper", "canvas", "shape", "vropper"]
+  "keywords": ["image", "crop", "cropper", "canvas", "shape", "vropper"],
+  "homepage": "https://vropper.vercel.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-last-of-the-bugs/vropper.git"
+  }
 }

@@ -1,5 +1,5 @@
 import { computed, ref } from "vue";
-import { defaultShapeRegistry, type ShapeDefinition, type ShapeId } from "@vropper/shapes";
+import { defaultShapeRegistry, type ShapeDefinition, type ShapeId } from "@tlob/vropper-shapes";
 
 /** Expose the shape registry to Vue UIs (shape pickers, custom shapes). */
 export function useShapes(registry = defaultShapeRegistry) {

@@ -1,4 +1,4 @@
-import { defaultShapeRegistry, type ShapeContext, type ShapeId } from "@vropper/shapes";
+import { defaultShapeRegistry, type ShapeContext, type ShapeId } from "@tlob/vropper-shapes";
 import type { Rect } from "../types";
 
 /** Trace the active shape into the current path of ctx (or a Path2D). */

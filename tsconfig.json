@@ -14,11 +14,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "ignoreDeprecations": "6.0",
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@docs/*": ["apps/docs/src/*"],
+      "@docs/*": ["./apps/docs/src/*"]
     },
     "jsx": "react-jsx",
     "types": ["node", "vite/client"]

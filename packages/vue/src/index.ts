@@ -6,7 +6,7 @@ export { VropperCropper, VropperShapePicker };
 export { useVropper } from "./composables/useVropper";
 export { useShapes } from "./composables/useShapes";
 export type { VropperProps, VropperEmits } from "./types";
-export * from "@vropper/core";
+export * from "@tlob/vropper-core";
 
 export default {
   install(app: App) {

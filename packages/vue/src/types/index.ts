@@ -1,5 +1,5 @@
-import type { AspectRatio, CropperState, ExportFormat, ExportResult } from "@vropper/core";
-import type { ShapeContext, ShapeId } from "@vropper/shapes";
+import type { AspectRatio, CropperState, ExportFormat, ExportResult } from "@tlob/vropper-core";
+import type { ShapeContext, ShapeId } from "@tlob/vropper-shapes";
 
 export interface VropperProps {
   src: string | File | Blob;

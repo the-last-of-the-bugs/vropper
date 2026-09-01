@@ -101,10 +101,10 @@ importers:
       '@tanstack/react-start':
         specifier: 1.168.32
         version: 1.168.32(crossws@0.4.10(srvx@0.11.22))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(rolldown@1.2.3)(vite@8.2.1(@types/node@26.2.0)(jiti@2.7.0))
-      '@vropper/core':
+      '@tlob/vropper-core':
         specifier: workspace:*
         version: link:packages/core
-      '@vropper/shapes':
+      '@tlob/vropper-shapes':
         specifier: workspace:*
         version: link:packages/shapes
       class-variance-authority:
@@ -215,7 +215,7 @@ importers:
 
   packages/core:
     dependencies:
-      '@vropper/shapes':
+      '@tlob/vropper-shapes':
         specifier: workspace:*
         version: link:../shapes
 
@@ -223,10 +223,10 @@ importers:
 
   packages/vue:
     dependencies:
-      '@vropper/core':
+      '@tlob/vropper-core':
         specifier: workspace:*
         version: link:../core
-      '@vropper/shapes':
+      '@tlob/vropper-shapes':
         specifier: workspace:*
         version: link:../shapes
       clsx:

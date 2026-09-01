@@ -30,7 +30,7 @@ export const Route = createFileRoute("/")({
 
 const componentExample = `<script setup lang="ts">
 import { ref } from "vue"
-import { VropperCropper } from "@vropper/vue"
+import { VropperCropper } from "@tlob/vropper-vue"
 
 const cropper = ref()
 
@@ -53,7 +53,7 @@ async function save() {
   <button @click="save">Export</button>
 </template>`;
 
-const composableExample = `import { useVropper } from "@vropper/vue"
+const composableExample = `import { useVropper } from "@tlob/vropper-vue"
 
 const {
   canvasRef, state, ready,
@@ -66,7 +66,7 @@ flip("x")
 setShape("heart")
 const result = await exportImage({ type: "image/webp", quality: 0.9 })`;
 
-const coreExample = `import { Cropper } from "@vropper/core"
+const coreExample = `import { Cropper } from "@tlob/vropper-core"
 
 const cropper = new Cropper({ shape: "circle", aspectRatio: 1 })
 cropper.attach(document.querySelector("canvas")!)
@@ -77,7 +77,7 @@ cropper.flip("y")
 cropper.zoomBy(0.2)
 const { blob, file, url } = await cropper.export({ type: "image/png" })`;
 
-const customShapeExample = `import { defaultShapeRegistry } from "@vropper/shapes"
+const customShapeExample = `import { defaultShapeRegistry } from "@tlob/vropper-shapes"
 
 defaultShapeRegistry.register({
   id: "blob",
@@ -94,10 +94,10 @@ const tree = `vropper/
 │  ├─ docs/
 │  └─ playground/
 ├─ packages/
-│  ├─ core/     @vropper/core    engine, canvas, export
-│  ├─ shapes/   @vropper/shapes  shape registry + built-ins
-│  ├─ vue/      @vropper/vue     component + composables
-│  └─ presets/  @vropper/presets aspect + output presets
+│  ├─ core/     @tlob/vropper-core    engine, canvas, export
+│  ├─ shapes/   @tlob/vropper-shapes  shape registry + built-ins
+│  ├─ vue/      @tlob/vropper-vue     component + composables
+│  └─ presets/  @tlob/vropper/presets aspect + output presets
 ├─ tests/
 ├─ pnpm-workspace.yaml
 └─ turbo.json`;
@@ -150,7 +150,7 @@ function DocsPage() {
                 href="#install"
                 className="inline-flex max-w-full items-center overflow-hidden rounded-full border border-border bg-secondary px-5 py-3 text-xs font-semibold sm:px-6 sm:text-sm text-secondary-foreground transition-colors hover:bg-accent"
               >
-                npm install @vropper/vue
+                npm install @tlob/vropper-vue
               </a>
             </div>
           </div>
@@ -168,13 +168,13 @@ function DocsPage() {
             <SectionHeading eyebrow="Install" title="Any package manager" />
             <InstallTabs />
             <p className="mt-4 text-sm text-muted-foreground">
-              The Vue package re-exports the engine, so <code>@vropper/core</code> and{" "}
-              <code>@vropper/shapes</code> come along for the ride. Need the engine alone? Install{" "}
-              <code>@vropper/core</code> and skip Vue entirely.
+              The Vue package re-exports the engine, so <code>@tlob/vropper-core</code> and{" "}
+              <code>@tlob/vropper-shapes</code> come along for the ride. Need the engine alone? Install{" "}
+              <code>@tlob/vropper-core</code> and skip Vue entirely.
             </p>
           </div>
           <div className="min-w-0">
-            <CodeBlock title="main.ts" code={`import { createApp } from "vue"\nimport Vropper from "@vropper/vue"\nimport App from "./App.vue"\n\ncreateApp(App).use(Vropper).mount("#app")`} />
+            <CodeBlock title="main.ts" code={`import { createApp } from "vue"\nimport Vropper from "@tlob/vropper-vue"\nimport App from "./App.vue"\n\ncreateApp(App).use(Vropper).mount("#app")`} />
           </div>
         </section>
 
@@ -254,7 +254,7 @@ function DocsPage() {
 
         <footer className="flex flex-col items-center justify-between gap-3 border-t border-border px-4 sm:px-8 lg:px-12 xl:px-20 2xl:px-32 py-6 text-center text-xs text-muted-foreground sm:flex-row sm:text-left">
           <span>vropper · MIT licensed · a shape-aware image cropping engine for Vue</span>
-          <span>@vropper/core · @vropper/shapes · @vropper/vue</span>
+          <span>@tlob/vropper-core · @tlob/vropper-shapes · @tlob/vropper-vue</span>
         </footer>
       </div>
     </div>
