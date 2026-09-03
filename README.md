@@ -1,5 +1,7 @@
 # Vropper
 
+![vropper-vue](image.png)
+
 > A shape-aware image cropper for Vue 3.
 
 Vropper is a modern image cropping library built for Vue 3. It provides a framework-agnostic core for image manipulation together with a Vue integration.
